@@ -1,4 +1,5 @@
 <?php
+
 namespace SocialiteProviders\PayPalSandbox;
 
 use SocialiteProviders\Manager\SocialiteWasCalled;
