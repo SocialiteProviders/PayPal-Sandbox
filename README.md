@@ -1,7 +1,7 @@
 # PayPalSandbox
 
 ```bash
-composer require socialiteproviders/paypalsandbox
+composer require socialiteproviders/paypal-sandbox
 ```
 
 ## Installation & Basic Usage
@@ -12,9 +12,9 @@ Please see the [Base Installation Guide](https://socialiteproviders.com/usage/),
 
 ```php
 'paypal_sandbox' => [    
-  'client_id' => env('PAYPALSANDBOX_CLIENT_ID'),  
-  'client_secret' => env('PAYPALSANDBOX_CLIENT_SECRET'),  
-  'redirect' => env('PAYPALSANDBOX_REDIRECT_URI') 
+  'client_id' => env('PAYPAL_SANDBOX_CLIENT_ID'),  
+  'client_secret' => env('PAYPAL_SANDBOX_CLIENT_SECRET'),  
+  'redirect' => env('PAYPAL_SANDBOX_REDIRECT_URI') 
 ],
 ```
 
